@@ -1,0 +1,61 @@
+/* Bottom Nav */
+ul.nav-bottom{
+    list-style: none;
+    flex-direction: row;
+}
+footer p.copyright{
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Classmates */
+  body.classmates .works-item img {
+    width: 100%;
+    border-radius: 150px;
+    max-height: 80%;
+    max-width: auto;
+  }
+  body.classmates .works-item .overlay {
+    border-radius: 150px;
+  }
+  body.classmates .works-item .overlay::before {
+    border:none; 
+  }
+  /* #region Resume */
+  .history-item{
+    padding-right: 10px;
+  }
+
+
+/* #endregion */
+  .a{
+    margin: 1em;
+  }
+
+  /* for line above copyright */
+  .copy-line{
+    width: 60%;
+  }
+
+  /* For backgrounds */
+  .bg-city{
+    background-image: url('/images/backgrounds/kansascitybackground.jpg');
+    background-color: rgba(14, 17, 24, 0.97);
+  }
+  .bg-mountain{
+    background-image: url('/images/backgrounds/mountain.jpg');
+    background-color: rgba(14, 17, 24, 0.97);
+  }
+/* For nav at the bottom */
+@media (min-width: 768px) and (max-width: 979px){
+    .page-nav .flex span {
+        display: inline-block;
+    }
+}
+
+/*For index on smaller screens*/
+@media screen and (max-width: 440px) {
+    .hexagon-menu div.hexagon-item {
+        margin-left: 12.5%;
+    }
+}
