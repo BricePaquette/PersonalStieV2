@@ -8,6 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\about.html" />
+    <Content Remove="wwwroot\classmates.html" />
+    <Content Remove="wwwroot\contact.html" />
     <Content Remove="wwwroot\css\colors\blue.css" />
     <Content Remove="wwwroot\css\colors\blue.css.map" />
     <Content Remove="wwwroot\css\colors\green.css" />
@@ -48,6 +51,7 @@
     <Content Remove="wwwroot\images\works\4.jpg" />
     <Content Remove="wwwroot\images\works\5.jpg" />
     <Content Remove="wwwroot\images\works\Dungeon.png" />
+    <Content Remove="wwwroot\index.html" />
     <Content Remove="wwwroot\js\main.js" />
     <Content Remove="wwwroot\js\script.js" />
     <Content Remove="wwwroot\plugins\animate.css" />
@@ -70,6 +74,8 @@
     <Content Remove="wwwroot\plugins\themefisher-fonts\fonts\themefisher-font.svg" />
     <Content Remove="wwwroot\plugins\themefisher-fonts\fonts\themefisher-font.ttf" />
     <Content Remove="wwwroot\plugins\themefisher-fonts\fonts\themefisher-font.woff" />
+    <Content Remove="wwwroot\portfolio.html" />
+    <Content Remove="wwwroot\resume.html" />
   </ItemGroup>
 
   <ItemGroup>
@@ -81,6 +87,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\about.html" />
+    <None Include="wwwroot\classmates.html" />
+    <None Include="wwwroot\contact.html" />
     <None Include="wwwroot\css\colors\blue.css" />
     <None Include="wwwroot\css\colors\blue.css.map" />
     <None Include="wwwroot\css\colors\green.css" />
@@ -121,6 +130,7 @@
     <None Include="wwwroot\images\works\4.jpg" />
     <None Include="wwwroot\images\works\5.jpg" />
     <None Include="wwwroot\images\works\Dungeon.png" />
+    <None Include="wwwroot\index.html" />
     <None Include="wwwroot\js\main.js" />
     <None Include="wwwroot\js\script.js" />
     <None Include="wwwroot\plugins\animate.css" />
@@ -143,6 +153,8 @@
     <None Include="wwwroot\plugins\themefisher-fonts\fonts\themefisher-font.svg" />
     <None Include="wwwroot\plugins\themefisher-fonts\fonts\themefisher-font.ttf" />
     <None Include="wwwroot\plugins\themefisher-fonts\fonts\themefisher-font.woff" />
+    <None Include="wwwroot\portfolio.html" />
+    <None Include="wwwroot\resume.html" />
   </ItemGroup>
 
 </Project>

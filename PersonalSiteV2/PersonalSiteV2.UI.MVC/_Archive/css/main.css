@@ -44,18 +44,24 @@ footer p.copyright{
   }
   .bg-mountain{
     background-image: url('/images/backgrounds/mountain.jpg');
-    background-color: rgba(14, 17, 24, 0.97);
+    /* background-color: rgba(14, 17, 24, 0.97); */
   }
 /* For nav at the bottom */
+
+/* For margin */
+.mb{
+  margin-bottom: 2.5em;
+}
 @media (min-width: 768px) and (max-width: 979px){
     .page-nav .flex span {
         display: inline-block;
     }
 }
 
-/*For index on smaller screens*/
-@media screen and (max-width: 440px) {
-    .hexagon-menu div.hexagon-item {
-        margin-left: 12.5%;
-    }
+/* Added for resume scrolling functionality */
+@media screen and (max-width: 979px) {
+  .history-scroller {
+    overflow: scroll !important;
+  }
 }
+
