@@ -1,3 +1,108 @@
 ﻿@{
     ViewData["Title"] = "Portfolio";
 }
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+            <div class="page-title text-center">
+                <h2>Port<span class="primary">folio</span> <span class="title-bg">works</span></h2>
+                <p>Below I displayed a few projects I am proud of, enjoy :)</p>
+            </div>
+        </div>
+    </div> <!-- /.row -->
+
+    <div class="row">
+        <div class="col-xs-12">
+            <ul class="filter list-inline">
+                <li><a href="#" class="active" data-filter="*">All</a></li>
+                <li><a href="#" data-filter=".C">C#</a></li>
+                <li><a href="#" data-filter=".MVC">MVC</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row isotope-gutter">
+        <div class="col-xs-12 col-sm-6 col-md-4 C">
+            <figure class="works-item">
+                <img src="~/images/works/Dungeon.png" alt="">
+                <div class="overlay"></div>
+                <figcaption class="works-inner">
+                    <h4>C# Dungeon Application</h4>
+                    <p>
+                        <a href="https://github.com/BricePaquette/DungeonApp" target="_blank">GitHub repository</a><br>
+
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 MVC">
+            <figure class="works-item">
+                <img src="~/images/works/2.jpg" alt="">
+                <div class="overlay"></div>
+                <figcaption class="works-inner">
+                    <h4>StoreFront Application</h4>
+                    <p>
+                        <a href="#">GitHub repository</a><br>
+
+                    </p>
+
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <figure class="works-item">
+                <img src="~/images/works/3.jpg" alt="">
+                <div class="overlay"></div>
+                <figcaption class="works-inner">
+                    <h4>ToDo API</h4>
+                    <p>
+                        <a href="#">GitHub repository</a><br>
+
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 Artworks Illustrator">
+            <figure class="works-item">
+                <img src="~/images/works/4.jpg" alt="">
+                <div class="overlay"></div>
+                <figcaption class="works-inner">
+                    <h4>React ToDo</h4>
+                    <p>
+                        <a href="#">GitHub repository</a><br>
+
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 MVC">
+            <figure class="works-item">
+                <img src="~/images/works/5.jpg" alt="">
+                <div class="overlay"></div>
+                <figcaption class="works-inner">
+                    <h4>SAT</h4>
+                    <p>
+                        <a href="#">GitHub repository</a><br>
+
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+
+    </div> <!-- /.row -->
+</div> <!-- /.container -->
+
+<nav class="clear">
+    <div class="container">
+        <div class="row flex flex-middle space-between">
+
+            <a href="@Url.Action("Classmates", "Home")" class="link col-lg-3">&larr; Classmates</a>
+            <a href="@Url.Action("Resume", "Home")" class="link col-lg-offset-9 col-lg-3">Resume &rarr;</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- /.page-nav -->
