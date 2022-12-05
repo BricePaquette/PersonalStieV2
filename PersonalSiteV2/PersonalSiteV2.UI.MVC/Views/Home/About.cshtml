@@ -1,3 +1,98 @@
 ﻿@{
     ViewData["Title"] = "About";
 }
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+            <div class="page-title text-center">
+                <h2>About <span class="primary">me</span> <span class="title-bg">Brice</span></h2>
+                <p>I am currently studying Full-Stack Web development in the .NET framework at Centriq Training</p>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+            <div class="about-author">
+                <figure class="author-thumb">
+                    <img src="~/images/Me.jpg" alt="Me in a blue suit">
+                </figure> <!-- /.author-bio -->
+            </div> <!-- /.about-author -->
+            <div class="author-desc">
+                <p><b>Date of birth:</b> April 17th, 2002</p>
+                <p><b>Language:</b> English</p>
+                <p><b>Expert in:</b> .NET Framework</p>
+                <p><b class="text-white">Freelance:</b> Available</p>
+                <br>
+            </div>
+            <!-- /.author-desc -->
+
+            <p style="margin-bottom: 5em;">
+                I have worked in the service industry for the past four years as a server and cook.
+                During the past four years I've picked up valuable experience and developed
+                skills in that have helped me blossom into a great developer. These skills include organisation,
+                problem solving, critical thinking, and multitasking abilities.
+            </p>
+        </div> <!-- /.col -->
+
+        <div class="col-xs-12 col-md-6">
+            <div class="section-title clear">
+                <h3>Skills</h3>
+            </div>
+            <div class="skill-wrapper">
+                <div class="progress clear">
+                    <div class="skill-name">C#</div>
+                    <div class="skill-bar">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="skill-lavel" data-skill-value="90%"></div>
+                </div> <!-- /.progress -->
+                <div class="progress clear">
+                    <div class="skill-name">HTML5</div>
+                    <div class="skill-bar">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="skill-lavel" data-skill-value="78%"></div>
+                </div> <!-- /.progress -->
+                <div class="progress clear">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="skill-lavel" data-skill-value="85%"></div>
+                </div> <!-- /.progress -->
+                <div class="progress clear">
+                    <div class="skill-name">MVC</div>
+                    <div class="skill-bar">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="skill-lavel" data-skill-value="95%"></div>
+                </div> <!-- /.progress -->
+                <div class="progress clear">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="skill-lavel" data-skill-value="70%"></div>
+                </div> <!-- /.progress -->
+                <div class="progress clear">
+                    <div class="skill-name">jQuery</div>
+                    <div class="skill-bar">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="skill-lavel" data-skill-value="75%"></div>
+                </div> <!-- /.progress -->
+            </div> <!-- /.skill-wrapper -->
+        </div> <!-- /.col -->
+    </div> <!-- /.row -->
+</div> <!-- /.container -->
+
+<nav class="clear">
+    <div class="container">
+        <div class="row flex flex-middle space-between">
+
+            <a href="@Url.Action("Index", "Home")" class="link col-lg-3">&larr; Home</a>
+            <a href="@Url.Action("Classmates", "Home")" class="link col-lg-offset-9 col-lg-3">Classmates &rarr;</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- /.page-nav -->

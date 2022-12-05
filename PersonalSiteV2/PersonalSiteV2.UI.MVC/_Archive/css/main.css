@@ -25,7 +25,12 @@ footer p.copyright{
   .history-item{
     padding-right: 10px;
   }
-
+/* Added for resume scrolling functionality */
+@media screen and (max-width: 979px) {
+    .history-scroller {
+        overflow: scroll !important;
+    }
+}
 
 /* #endregion */
   .a{
@@ -58,10 +63,5 @@ footer p.copyright{
     }
 }
 
-/* Added for resume scrolling functionality */
-@media screen and (max-width: 979px) {
-  .history-scroller {
-    overflow: scroll !important;
-  }
-}
+
 
