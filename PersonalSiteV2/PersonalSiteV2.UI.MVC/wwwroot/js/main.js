@@ -3,19 +3,21 @@ function setColor(color) {
 	//let currentFav = document.getElementById('Favicon')
 	switch (color) {
 		case 'blue':
-			currentColor.setAttribute('href', '~/css/colors/blue.css')
+			let currentPath = currentColor.getAttribute('href');
+			console.log(currentPath);
+			currentColor.setAttribute('href', '../css/colors/blue.css')
 			
 			break;
 		case 'green':
-			currentColor.setAttribute('href', '~/css/colors/green.css')
+			currentColor.setAttribute('href', '../css/colors/green.css')
 			
 			break;
 		case 'yellow':
-			currentColor.setAttribute('href', '~/css/colors/yellow.css')
+			currentColor.setAttribute('href', '../css/colors/yellow.css')
 			
 			break;
 		case 'red':
-			currentColor.setAttribute('href', '~/css/colors/red.css')
+			currentColor.setAttribute('href', '../css/colors/red.css')
 			
 			break;
 	}
