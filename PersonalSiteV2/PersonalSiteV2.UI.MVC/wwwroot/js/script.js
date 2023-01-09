@@ -115,13 +115,13 @@
 		if ($(window).width() < 768 ) {            
 			$(".preview-wrapper").removeClass("extend");
 		}
-		$(".color-options li").on("click", function(){			
-			$("#color-changer").attr({
-				"href":"~/css/colors/"+$(this).attr("data-color")+".css"
-			});
+		//$(".color-options li").on("click", function(){			
+		//	$("#color-changer").attr({
+		//		"href":"css/colors/"+$(this).attr("data-color")+".css"
+		//	});
 			//localStorage.setItem('jsColor', color)
-			return false;
-		});
+		//	return false;
+		//});
 	}
 	
 	$(window).on("load", function() {

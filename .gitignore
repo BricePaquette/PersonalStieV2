@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+#Protecting sensative info
+/PersonalSiteV2.UI.MVC/appsettings.json
